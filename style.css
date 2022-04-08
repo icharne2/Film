@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: Muli;
+    src: url("FONTS/Muli.ttf");
+}
+
+@font-face{
+    font-family: BAHNSCHRIFT;
+    src: url("FONTS/BAHNSCHRIFT4.TTF");
+}
+
+body{
+    font-family: Muli;
+}
+
+#top{
+    background-color: #323c48;
+    color: white;
+    height: 50px;
+    width: 100%;
+}
+
+#top > img{
+    height: auto;
+    width: 36px;
+    float: left;
+    margin: 7px 7px 0 100px;
+}
+
+#top p{
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#bottom{
+    background-image: url("IMG/bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: top ;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    min-height: 35vh;
+}
+
+#bottom p{
+    padding-top: 4vw;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 3px 5px black;
+}
+
+#container{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background-image: url("IMG/bg2.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-bottom: solid 10px #61ded0;
+}
+
+.con{
+    width: 60%;
+    float: left;
+    padding-left: 17%;
+    min-height: 30vh;
+    text-align: center;
+}
+
+.con .left > p{
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.bigLogo > img{
+    height: 90px;
+    width: auto;
+    display: block;
+    float: left;
+}
+
+.bigLogo p{
+    font-size: 70px;
+    float: left;
+    color: #323c48;
+    font-weight: bold;
+}
+
+.bigLogo{
+    margin: 30px auto;
+    width: 250px;
+    height: auto;
+}
+
+.left{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.con .space{
+    margin-left: 15vh;
+}
+
+nav{
+    float: left;
+    width: 20%;
+    font-family: BAHNSCHRIFT;
+    text-align: center;
+}
+
+nav li > a{
+    color: #61ded0;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 28px;
+    width: 100%;
+    height: 125%;
+    display: block;
+}
+
+nav li > a:hover {
+    color: #323c48;
+}
+
+nav li{
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    background-color: #323c48;
+    border: solid 5px #61ded0;
+    margin: 5px;
+}
+
+nav li:hover{
+    background-color: #61ded0;
+    border: solid 5px #323c48;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+footer{
+    width: 100%;
+    min-height: 350px;
+    background-color: #323c48;
+    color: white;
+}
+
+footer section{
+    width: 16%;
+    margin-left: 7.2%;
+    height: auto;
+    color: white;
+    float: left;
+}
+
+section > h1{
+    margin: 40px;
+}
+
+section > ul{
+    list-style-type: none;
+}
+
+.socialMedia{
+    display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.socialMedia  li{
+    display: inline;
+}
+
+.stopka > input{
+    padding: 9px;
+    width: 100px;
+    border: none;
+    margin-bottom: 5px;
+    border-bottom: solid 1px white;
+    color: white;
+    background-color: transparent;
+}
+
+.stopka > button{
+    padding: 10px 7px;
+    border: none;
+    color: #323c48;
+    font-weight: bold;
+    background-color: #61ded0;
+}
+
+.stopka > input:-moz-placeholder {color: rgba(255, 255, 255, 0.445)}
+.stopka > input::-webkit-input-placeholder {color:rgba(255, 255, 255, 0.445)}
+
+#formularz{
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    padding-left: 60px;
+    margin-top: 40px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#formularz label{
+    font-weight: bold;
+    margin: 2px;
+}
+
+#formularz input{
+    border: 1px solid rgb(179, 179, 179);
+    width: 200px;
+    padding: 5px;
+}
+
+#formularz textarea{
+    border: 1px solid rgb(179, 179, 179);
+    font-family: Muli;
+    width: 340px;
+    padding: 5px;
+}
+
+#formularz button{
+    margin-left: 40px;
+    width: 80px;
+}
+
+input{
+    font-family: Muli;
+}
+
+.przycisk1{
+    border: none;
+    background-color: #61ded0;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 14px;
+    width: 225px;
+}
+
+.przycisk2{
+    border: 1px solid red;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 15px;
+    padding: 14px;
+    color: red;
+    width: 225px;
+}
+
+button{
+    font-family: Muli;
+}
+
+button:hover{
+    box-shadow: 3px 3px 8px black;
+}
+
+input:focus{
+    outline: none;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.images{
+    height: 25%;
+    min-height: 150px;
+    width: auto;
+    padding: 30px;
+    padding-left: 5%;
+    position: absolute;
+}
+
+#one{
+    left: 0;
+}
+
+#two{
+    left: 30vh;
+    top: 50vh;
+}
+
+#tree{
+    left: 60vh;
+}
+
+.heighter{
+    min-height: 25vw;
+    padding-bottom: 30px;
+
+}
